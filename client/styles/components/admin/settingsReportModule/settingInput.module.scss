@@ -1,0 +1,14 @@
+@import '../../../const.scss';
+.title {
+    margin-top: 5px;
+    input {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        outline: none;
+        border: none;
+        padding: 0 5px;
+        border: 1px solid $maincolor;
+        border-radius: 5px;
+    }
+}

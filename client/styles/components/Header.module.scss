@@ -1,0 +1,49 @@
+@import '../const';
+.header {
+    width: 100%;
+    height: 100px;
+    .content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        .logo {
+            height: 55px;
+            display: flex;
+            align-items: center;
+            .logo_img {
+                position: relative;
+                height: 55px;
+                width: 100px;
+                margin-right: 2px;
+            }
+            span {
+                font-weight: 700;
+                font-size: 32px;
+                letter-spacing: -0.08em;
+                color: $maincolor;
+            }
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+            a {
+                margin-right: 15px;
+                font-weight: 300;
+                font-size: 16px;
+                &:last-child {
+                    margin: 0;
+                }
+                &:hover {
+                    color: $maincolor;
+                    font-weight: 500;
+                }
+            }
+        }
+        .phone {
+            font-weight: 300;
+            font-size: 24px;
+        }
+    }
+}

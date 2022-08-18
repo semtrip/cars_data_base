@@ -1,0 +1,106 @@
+@import '../../const.scss';
+.page {
+    width: 100%;
+    padding-bottom: 80px;
+    .page_info {
+        background: $maincolor;
+        .content {
+            display: flex;
+            align-items: center;
+            height: 100px;
+            width: 100%;
+            span {
+                font-weight: 700;
+                font-size: 32px;
+                color: $white;
+            }
+        }
+    }
+    .task {
+        width: 100%;
+        .content {
+            padding-top: 25px;
+            width: 585px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 auto;
+            .title {
+                font-weight: 700;
+                font-size: 24px;
+            }
+            .description {
+                font-weight: 400;
+                font-size: 20px;
+                text-align: center;
+            }
+            .block {
+                margin-top: 90px;
+                width: 100%;
+                background: $white;
+                box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.5);
+                border-radius: 5px;
+                padding: 30px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                .title {
+                    font-weight: 500;
+                    font-size: 24px;
+                }
+                .description {
+                    font-weight: 300;
+                    font-size: 20px;
+                    letter-spacing: -0.08em;    
+                }
+                .option {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                .btns {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .btn {
+                        border-radius: 5px;
+                        width: 220px;
+                        height: 57px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: 700;
+                        font-size: 20px;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        transition: all .2s;
+                        &.back {
+                            background: $red;
+                            &:hover {
+                                background: $redHover;
+                            }
+                        }
+                        &.next {
+                            background: $maincolor;
+                            &:hover {
+                                background: $maincolorHover;
+                            }
+                        }
+                        &.save {
+                            background: $green;
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}
+@media (max-width: 585px) {
+    .page {
+        .task {
+            .content {
+                width: 100%;
+            } 
+        }
+    }
+}

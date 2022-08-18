@@ -1,0 +1,19 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.items {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    h3 {
+        font-weight: 400;
+        font-size: 32px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}

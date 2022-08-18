@@ -1,0 +1,26 @@
+{
+    "name": "cars_base_checklist",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.8.3",
+        "axios": "^0.27.2",
+        "next": "12.2.3",
+        "next-redux-wrapper": "^7.0.5",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-redux": "^8.0.2",
+        "react-toastify": "^9.0.7",
+        "sass": "^1.54.0"
+    },
+    "devDependencies": {
+        "eslint": "8.20.0",
+        "eslint-config-next": "12.2.3"
+    }
+}
